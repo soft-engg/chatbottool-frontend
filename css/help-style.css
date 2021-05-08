@@ -1,0 +1,105 @@
+html{
+	scroll-behavior: smooth;
+}
+.section1{
+	text-align: center;
+	height: 30vh;
+
+}
+.section1 h1{
+	font-size:  50px;
+    margin-top:50px;
+    margin-bottom: 20px; 
+}
+.section1 input{
+	height: 35%;
+	width: 40%;
+	font-size: 20px;
+	outline: none;
+	border:2px solid black;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-color: grey;
+	border-right: none;
+}
+.section1 button{
+	height: 35%;
+	width: 10%;
+	font-size: 20px;
+	outline: none;
+	border:2px solid grey;
+	background-color: blue;
+	font-weight: bold;
+	color: white;
+}
+.section1 button:hover{
+	border:2px solid white;
+	outline: 1px solid black;
+}
+
+
+.section2{
+	display: flex;
+	justify-content: space-between;
+}
+.left-menu{
+	width:20%;
+	background-color:rgba(0,0,0,0.1); 
+	padding-top: 20px;
+	height: 115vh;
+}
+.left-menu a{
+	color: blue;
+	margin-left: 10%;
+	text-decoration: none;
+	font-size: 18px;	
+	word-spacing: 3px;
+    line-height: 200%;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.left-menu a:hover{
+	border-bottom: 3px solid blue;
+	border-bottom-right-radius: 0px;
+}
+
+.section2-content{
+	width: 65%;
+	margin-right: 5%;
+	padding: 2%;
+}
+
+.section2-content-child{
+	width: 65%;
+	font-size: 20px;
+	line-height: 150%;
+	border:2px solid black;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.section2-content-child h2{
+	text-transform: uppercase;
+	margin-bottom: 10px; }
+
+.section2-content-child div{
+  border:3px solid orange;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.section2-content-child div:hover {
+	background-color: orange;
+	transition: 2s ease;
+}
+.section2-content-child a {
+	text-decoration: none;
+	font-weight: bold;
+}
+.section2-content-child a:hover  {
+
+	border-bottom: 2px solid blue;
+
+}

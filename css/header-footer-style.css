@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "josefin Sans", sans-serif; 
+  }
+
+header{
+  margin-top:0px;
+  width:100%;
+  height:12vh;
+  background-color: black;
+  color:white;
+}
+nav{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+nav .logo{
+  width: 15%;
+  text-align: center;
+  color: orange;
+}
+
+
+nav .menu{
+  width: 60%;
+  display: flex;
+  justify-content: space-around; 
+  font-size: 15px;
+}
+
+nav .nav-buttons {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  padding-top:3%; 
+}
+
+nav .nav-buttons button{
+  width: 40%;
+  padding:10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  align-items: center;
+}
+
+
+nav .menu a {
+  min-width: 50px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav .menu a:hover{
+ background-color: orange;
+ padding: 10px;
+ border-radius: 5px;
+}
+
+
+.product-dropdown-content a ,.integration-dropdown-content a , .solution-dropdown-content a , .template-dropdown-content a,.resources-dropdown-content a{
+  float: none;
+  min-width: 100%;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left !important;
+ 
+}
+.product-dropdown-content a:hover, .solution-dropdown-content a:hover, .integration-dropdown-content a:hover, .template-dropdown-content a:hover,.resources-dropdown-content a:hover {
+  background-color:white;
+  
+}
+.product-dropdown-content, .solution-dropdown-content,.integration-dropdown-content,.template-dropdown-content,.resources-dropdown-content {
+  font-size: 14px;
+  display: none;
+  position: absolute;
+  width: 150px;
+  background-color: rgb(128,128,128);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.product-dropdown:hover .product-dropdown-content  {
+  display:block;
+}
+.solution-dropdown:hover .solution-dropdown-content  {
+  display:block;
+}
+.integration-dropdown:hover .integration-dropdown-content  {
+  display:block;
+}
+.template-dropdown:hover .template-dropdown-content  {
+  display:block;
+}
+.resources-dropdown:hover .resources-dropdown-content  {
+  display:block;
+}
+
+ul{
+list-style-type: none;
+}
+li{
+    text-align: left;
+}
+nav .menu button{
+  font-size: 25px;
+  color:white;
+  font-weight: bold;
+  border-style: none;
+}
+nav .login-button{
+ text-transform: uppercase;
+  background-color: white;
+  border-style: none;
+}
+nav .signup-button{
+  color:white;
+  background-color: red;
+  text-transform:uppercase;
+border-style: none;}
+
+  nav .login-button:hover{
+    background-color: black;
+    color:white;
+    border:2px solid white;
+    transition: ease;
+  }
+  nav .signup-button:hover{
+   Background-color:darkred;
+  }
+
+  footer{
+   margin-top: 5px;
+ background-color: black;
+  }
+  .menu-footer-div{
+  display: flex;
+ justify-content:space-around;
+ width: 100%;
+  }
+  footer a{
+    min-width:100%;
+    display: block;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  footer a:hover{
+   border-bottom: 3px solid orange;
+  }
+  footer .footer-menu-header{
+    background-color:orange;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  footer div{ margin:2px;
+    margin-bottom: 1%;
+    min-width: 18%}
+
+  footer .footer-div2{
+     display: flex;
+    justify-content:space-between;
+    width: 100%;
+    }
+footer img{
+  height: 50px;
+  width: 50px;
+  
+}
+
+.sigup-div-footer{
+  margin-left:10%; 
+  width:30%;
+  display: flex;
+  justify-content: space-between;
+}
+footer h2{
+  margin-top: 5px;
+  color:lightgrey;
+}
+footer button{
+ background-color: red;
+color:white;
+text-transform: uppercase;
+font-size: 15px;
+border-radius: 5px;
+width: 40%;
+height: 65%;
+font-weight: bold;
+border-style:none;
+}
+footer button:hover{
+ background-color: darkred;
+}
+.social-div-footer{
+  width:30%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.fab-icon{
+  height:100px;
+  width: 100px;
+  position: fixed;
+    bottom: 30px;
+    right: 10px;
+    z-index: 999;
+    cursor: pointer;
+}
+nav .nav-buttons{
+  padding-bottom:2.8%;
+}
